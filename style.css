@@ -1,0 +1,470 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.nav-container {
+    background: rgb(40,37,43);
+    width: 100%;
+    height: 15vh;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-logo a{
+    text-decoration: none;
+    font-size: 16pt;
+}
+
+.nav-logo p {
+    font-size: 8pt;
+    padding-left: 5px;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    padding-top: 20px;
+    margin-left: 500px;
+}
+
+
+.nav-links ul a {
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.nav-links ul a:hover {
+    background: chocolate;
+    border-radius: 20px;
+    outline: none;
+}
+
+.btnSignUp {
+    border: none;
+    height: 5vh;
+    width: 7vw;
+    border-radius: 20px;
+    color: black;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.btnSignUp:hover {
+    background: rgb(60, 108, 238);
+}
+
+.body-section {
+    margin-top: 2px;
+    background: url(./imagesXMSB1JAW.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    border: none;
+}
+
+.circle-links ul {
+    padding-top: 50px;
+    margin: 0px 10px 50px 10px;
+    display: flex;
+    list-style: none;
+}
+
+
+.circle-links ul li {
+    padding: 10px;
+}
+
+.circle-links ul a {
+    text-decoration: none;
+    padding: 30px 38px 30px 40px;
+    border-radius: 60px;
+    background: url(./FB_IMG_1581145723509.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-body {
+    margin: 30px 10px 0px 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    border: 2px solid #fff;
+    height: 40vh;
+    width: 26vw;
+    background: rgba(119, 118, 118, 0.76);
+}
+
+@media screen and (max-width: 375px) {
+    
+    .circle-links ul a {
+        text-decoration: none;
+        background: rgba(211, 27, 27, 0.637);
+        padding: 35px 40px 35px 45px;
+        border-radius: 50px;
+        background: url(./FB_IMG_1581145723509.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .circle-links ul li {
+        padding: 0px;
+    }
+
+    .text-body {
+        margin: 40px 10px 0px 2px;
+        padding-top: 20px;
+        padding-left: 10px;
+        border: 2px solid #fff;
+        height: 40vh;
+        width: 98.5%;
+        background: rgb(40,37,43);
+    }
+
+    .circle-links ul a {
+        text-decoration: none;
+        background: rgba(211, 27, 27, 0.637);
+        padding: 30px 38px 30px 40px;
+        border-radius: 60px;
+        background: url(./FB_IMG_1581145723509.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .circle-links ul {
+        padding-top: 50px;
+        margin: 0px 10px 50px 10px;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    .nav-items{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .nav-container {
+        height: 22vh;
+    }
+    
+    .nav-logo a{
+        text-decoration: none;
+        font-size: 16pt;
+    }
+    
+    .nav-logo p {
+        font-size: 8pt;
+        padding-left: 5px;
+    }
+    
+    .nav-links ul {
+        list-style: none;
+        display: flex;
+        padding-top: 70px;
+    }
+    
+    .text-body {
+        margin: 40px 10px 0px 2px;
+        padding-top: 20px;
+        padding-left: 10px;
+        border: 2px solid #fff;
+        height: 40vh;
+        width: 98.5%;
+        background: rgb(40,37,43);
+    }
+    
+    .nav-links ul a {
+        text-decoration: none;
+        padding: 10px 15px;
+    }
+
+    .text-body {
+        margin: 80px 10px 0px 10px;
+        padding-top: 20px;
+        padding-left: 10px;
+        border: 2px solid #fff;
+        height: 40vh;
+        background: rgb(40,37,43);
+    }
+
+    .circle-links ul li {
+        padding: 0px;
+    }
+
+    .circle-links ul a {
+        text-decoration: none;
+        background: rgba(211, 27, 27, 0.637);
+        padding: 30px 38px 30px 40px;
+        border-radius: 60px;
+        background: url(./FB_IMG_1581145723509.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .circle-links ul {
+        padding-top: 50px;
+        margin: 0px 10px 50px 10px;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+    
+}
+
+@media screen and (max-width: 520px) {
+    .btnSignUp{
+        display:none;
+    }
+    .nav-container {
+        height: 22vh;
+    }
+
+    .text-body {
+        margin: 40px 10px 0px 2px;
+        padding-top: 20px;
+        padding-left: 10px;
+        border: 2px solid #fff;
+        height: 40vh;
+        width: 98.5%;
+        background: rgb(40,37,43);
+    }
+
+    .nav-links ul{
+        margin-left: -50px;
+    }
+
+    .circle-links ul li {
+        padding: 0px;
+    }
+
+    .circle-links ul a {
+        text-decoration: none;
+        background: rgba(211, 27, 27, 0.637);
+        padding: 30px 38px 30px 40px;
+        border-radius: 60px;
+        background: url(./FB_IMG_1581145723509.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .circle-links ul {
+        padding-top: 50px;
+        margin: 0px 10px 50px 10px;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .nav-links ul{
+        margin-left: -10px;
+    }
+
+    .nav-container {
+        height: 22vh;
+    }
+
+    .text-body {
+        margin: 40px 10px 0px 2px;
+        padding-top: 20px;
+        padding-left: 10px;
+        border: 2px solid #fff;
+        height: 40vh;
+        width: 98.5%;
+        background: rgb(40,37,43);
+    }
+
+    .circle-links ul li {
+        padding: 0px;
+    }
+
+    .circle-links ul a {
+        text-decoration: none;
+        background: rgba(211, 27, 27, 0.637);
+        padding: 30px 38px 30px 40px;
+        border-radius: 60px;
+        background: url(./FB_IMG_1581145723509.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .circle-links ul {
+        padding-top: 50px;
+        margin: 0px 10px 50px 10px;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    
+    .nav-links ul{
+        margin-left: -100px;
+    }
+    .nav-container {
+        height: 18vh;
+    }
+
+    .nav-links ul a {
+        font-size: 8pt;
+    }
+
+    .circle-links ul li {
+        padding: 0px;
+    }
+
+    .circle-links ul a {
+        text-decoration: none;
+        background: rgba(211, 27, 27, 0.637);
+        padding: 20px 28px 20px 30px;
+        border-radius: 50px;
+    }
+
+    .circle-links ul .picOne
+    {
+        background: url(./bas.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .circle-links ul .picTwo
+    {
+        background: url(./FB_IMG_1581145695607.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .circle-links ul .picThree
+    {
+        background: url(./20201029_063124.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .circle-links ul .picFour
+    {
+        background: url(./Cover.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .circle-links ul {
+        padding-top: 50px;
+        margin: 0px 10px 50px 10px;
+        display: flex;
+        list-style: none;
+    }
+
+    .bodyHeading {
+        font-size: 18pt;
+    }
+
+    .text-body {
+        margin: 5px;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 2px solid #fff;
+        height: 32vh;
+        width: 96vw;
+        background: rgba(120, 119, 121, 0.295);
+        border: none;
+        font-size: 10pt;
+        text-align: justify;
+        font-style: normal;
+        line-height: 20px;
+        border-bottom: 5px solid rgba(255, 68, 0, 0.623);
+    }
+    html {
+        scroll-behavior: smooth;
+        height: 100%;
+    }
+
+    .btnMore {
+        border: none;
+        height: 5vh;
+        width: 35vw;
+        border-radius: 20px;
+        color: black;
+        margin-top: 10px;
+        margin-left: 90px;
+        outline: none;
+    }
+    
+    .btnMore:hover {
+        background: rgb(60, 108, 238);
+    }
+
+    .nav-footer {
+        position: fixed;
+        background: rgba(40, 37, 43, 0.842);
+        height: 15vh;
+        width: 100vw;
+        margin-top: 15px;
+    }
+
+    .nav-footer-last {
+        background: rgb(40, 42, 43);
+        height: 15vh;
+        width: 100vw;
+    }
+
+    .contactInfo{
+        font-size: 15pt;
+        margin-left: 90px;
+        padding-top: 5px;
+    }
+
+    .contactItems {
+        padding-top: 5px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 9.5pt;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .contactItems ul li {
+        padding: 3px 0px;
+    }
+
+    .contactItems ul a {
+        color: rgba(119, 118, 118);
+        padding: 0px 10px;
+        font-weight: bolder;
+    }
+
+    .copyRight {
+        padding: 10px 67px;
+        color: rgba(120, 119, 121, 0.637);
+        font-size: 10pt;
+    }
+    
+}
